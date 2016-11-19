@@ -16,7 +16,7 @@ import { ExpenseComponent } from './expense/expense.component';
       { path: 'contact', component: ContactComponent },
       { path: 'reports', component: ReportsComponent },
       { path: 'about', component: AboutComponent },
-      { path: 'expense', component: ExpenseComponent },
+      { path: 'expenses', component: ExpenseComponent },
       { path: '', redirectTo: 'contact', pathMatch: 'full'}
     ], {useHash: true})
     ],
