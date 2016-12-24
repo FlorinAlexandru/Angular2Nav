@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
     selector: 'expenses-pm',
-    template: '<div> This is the expense page</div>'
+    templateUrl: 'app/expense/expense.component.html'
 })
 export class ExpenseComponent{
     pageTitle: 'Expenses page'
