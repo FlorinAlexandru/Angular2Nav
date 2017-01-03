@@ -8,6 +8,7 @@ import { ContactComponent } from './contact/contact.component';
 import { ReportsComponent } from './reports/reports.component';
 import { AboutComponent } from './about/about.component';
 import { ExpenseComponent } from './expense/expense.component';
+import { NavComponent } from './nav/nav.component' ;
 
 @NgModule({
   imports:      [ 
@@ -25,7 +26,8 @@ import { ExpenseComponent } from './expense/expense.component';
     ContactComponent,
     ReportsComponent,
     AboutComponent,
-    ExpenseComponent ],
+    ExpenseComponent,
+    NavComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
