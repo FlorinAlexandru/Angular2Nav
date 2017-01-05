@@ -8,6 +8,8 @@ import { ContactComponent } from './contact/contact.component';
 import { ReportsComponent } from './reports/reports.component';
 import { AboutComponent } from './about/about.component';
 import { ExpenseComponent } from './expense/expense.component';
+import { NavComponent } from './nav/nav.component' ;
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 @NgModule({
   imports:      [ 
@@ -17,6 +19,7 @@ import { ExpenseComponent } from './expense/expense.component';
       { path: 'reports', component: ReportsComponent },
       { path: 'about', component: AboutComponent },
       { path: 'expenses', component: ExpenseComponent },
+      { path: 'dashboard', component: DashboardComponent},
       { path: '', redirectTo: 'contact', pathMatch: 'full'}
     ], {useHash: true})
     ],
@@ -25,7 +28,9 @@ import { ExpenseComponent } from './expense/expense.component';
     ContactComponent,
     ReportsComponent,
     AboutComponent,
-    ExpenseComponent ],
+    ExpenseComponent,
+    NavComponent,
+    DashboardComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
